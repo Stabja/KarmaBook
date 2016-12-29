@@ -1,0 +1,7 @@
+{"ZBoxandButton":[
+{"qId":1,"dataType":"Multiple Select","label":"Places","helpText":"Places u have visited?","MaxCharsAllowed":20,"helpImageUrl":"na","settings":"AR","condition":"NA", "enum":"delhi,mumbai,pune,hyderabad"},
+{"qId":2,"dataType":"Single Select","label":"Gender","helpText":"What are u?","MaxCharsAllowed":100,"helpImageUrl":"na","settings":"AR","condition":"NA", "enum":"male,female"},
+{"qId":3,"dataType":"Image","label":"Profile Photo","helpText":"Take a snap","MaxCharsAllowed":100,"helpImageUrl":"na","settings":"AR","condition":"NA"},
+{"qId":4,"dataType":"Signature","label":"Signature","helpText":"Tap to put signature","MaxCharsAllowed":100,"helpImageUrl":"na","settings":"AR","condition":"NA"},
+{"qId":5,"dataType":"Geo Location","label":"GPS Coordinates","helpText":"Get GPS coordinates","MaxCharsAllowed":100,"helpImageUrl":"na","settings":"AR","condition":"NA"}
+]}

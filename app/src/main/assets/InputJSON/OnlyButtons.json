@@ -1,0 +1,6 @@
+{"OnlyButtons":[
+{"qId":1,"dataType":"Email","label":"Email Address","helpText":"Enter ur email?","MaxCharsAllowed":100,"helpImageUrl":"na","settings":"AR","condition":"NA"},
+{"qId":2,"dataType":"Image","label":"Profile Photo","helpText":"Take a snap","MaxCharsAllowed":100,"helpImageUrl":"na","settings":"AR","condition":"NA"},
+{"qId":3,"dataType":"Signature","label":"Signature","helpText":"Tap to put signature","MaxCharsAllowed":100,"helpImageUrl":"na","settings":"AR","condition":"NA"},
+{"qId":4,"dataType":"Geo Location","label":"GPS Coordinates","helpText":"Get GPS coordinates","MaxCharsAllowed":100,"helpImageUrl":"na","settings":"AR","condition":"NA"}
+]}

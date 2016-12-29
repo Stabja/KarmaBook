@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UserLayout</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_settings">Back</string>
+
+    <string name="username1">उपयोगकर्ता नाम</string>
+    <string name="password">........</string>
+    <string name="forgotpass">पासवर्ड भूल गए?</string>
+    <string name="newhere">यहाँ नये? </string>
+
+    <string name="surveys">सर्वेक्षण</string>
+    <string name="profile">प्रोफाइल</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="username">उपयोगकर्ता नाम</string>
+    <string name="email">ईमेल</string>
+    <string name="changepassword">पासवर्ड बदलें</string>
+    <string name="setlang">भाषा सेट करें</string>
+    <string name="mdwo">मैन्युअल डेटा सिंक जब ऑनलाइन</string>
+    <string name="mlu">मैनुअल स्थान अद्यतन</string>
+    <string name="onliner">ऑनलाइन उत्तर</string>
+    <string name="offliner">ऑफलाइन रिस्पांस</string>
+    <string name="incompr">दो या दो से रिस्पांस</string>
+    <string name="form">प्रपत्र</string>
+    <string name="selectlang">कृपया चुनें भाषा</string>
+    <string name="getlocation">शहर का नाम हो जाओ</string>
+
+    <string name="respstat">प्रतिक्रिया सांख्यिकी</string>
+    <string name="timeper">समय सीमा</string>
+
+    <string name="signup">साइन अप करें</string>
+    <string name="useremail">उपयोगकर्ता का नाम या ईमेल</string>
+    <string name="orgid">संगठन क्रमांक</string>
+    <string name="pass">पासवर्ड</string>
+    <string name="confirnpass">पासवर्ड की पुष्टि कीजिये</string>
+    <string name="alreadyacc">क्या आपके पास पहले से एक खाता मौजूद है? </string>
+    <string name="signin"> साइन इन करें</string>
+
+    <string name="language">भाषा</string>
+    <string name="recordLoc">रिकॉर्ड स्थान</string>
+    <string name="autosync">स्वतः सिंक</string>
+    <string name="privacy">गोपनीयता नीति</string>
+    <string name="aboutbook">कर्मा पुस्तक के बारे में</string>
+    <string name="logout">लोग आउट</string>
+
+    <string name="surveyhead">व्यक्तिगत विवरण</string>
+    <string name="name">नाम</string>
+    <string name="age">आयु</string>
+    <string name="address">पता</string>
+    <string name="gender">लिंग</string>
+
+    <string name="surveyreport">सर्वेक्षण रिपोर्ट</string>
+    <string name="nutreport">पोषण की रिपोर्ट</string>
+    <string name="referral">रेफरल</string>
+    <string name="disease">रोग</string>
+    <string name="pcbmedicines">निर्धारित दवाओं</string>
+
+
+</resources>

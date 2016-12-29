@@ -1,0 +1,4 @@
+{"DateTimeText":[
+{"qId":1,"dataType":"Date","label":"Date","helpText":"Which day?","MaxCharsAllowed":100,"helpImageUrl":"na","settings":"AR","condition":"NA"},
+{"qId":2,"dataType":"Time","label":"Time","helpText":"What time?","MaxCharsAllowed":100,"helpImageUrl":"na","settings":"AR","condition":"NA"}
+]}

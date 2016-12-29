@@ -1,0 +1,6 @@
+{"OnlyBoxes":[
+{"qId":1,"dataType":"Multiple Select","label":"Places","helpText":"Places u have visited?","MaxCharsAllowed":20,"helpImageUrl":"na","settings":"AR","condition":"NA", "enum":"delhi,mumbai,pune,hyderabad"},
+{"qId":2,"dataType":"Single Select","label":"Gender","helpText":"What are u?","MaxCharsAllowed":100,"helpImageUrl":"na","settings":"AR","condition":"NA", "enum":"male,female"},
+{"qId":3,"dataType":"Multiple Select","label":"Places","helpText":"Places u have visited?","MaxCharsAllowed":20,"helpImageUrl":"na","settings":"AR","condition":"NA", "enum":"delhi,mumbai,pune,hyderabad"},
+{"qId":4,"dataType":"Single Select","label":"Gender","helpText":"What are u?","MaxCharsAllowed":100,"helpImageUrl":"na","settings":"AR","condition":"NA", "enum":"male,female"}
+]}

@@ -1,0 +1,7 @@
+{"ZOnlyText":[
+{"qId":1,"dataType":"Text","label":"Name","helpText":"Official Name","MaxCharsAllowed":100,"helpImageUrl":"na","settings":"AR","condition":"NA"},
+{"qId":2,"dataType":"Number","label":"Age","helpText":"How old are you?","MaxCharsAllowed":2,"helpImageUrl":"na","settings":"PoT","condition":"NA"},
+{"qId":3,"dataType":"Date","label":"Address","helpText":"Official Address","MaxCharsAllowed":100,"helpImageUrl":"na","settings":"AR","condition":"NA"},
+{"qId":4,"dataType":"Phone","label":"Mobile no","helpText":"Enter ur phone no","MaxCharsAllowed":100,"helpImageUrl":"na","settings":"AR","condition":"NA"},
+{"qId":5,"dataType":"Email","label":"Email Address","helpText":"Enter ur email?","MaxCharsAllowed":100,"helpImageUrl":"na","settings":"AR","condition":"NA"}
+]}

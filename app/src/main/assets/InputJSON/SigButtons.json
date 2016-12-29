@@ -1,0 +1,5 @@
+{"SigButtons":[
+{"qId":1,"dataType":"Signature","label":"Signature","helpText":"Tap to put signature","MaxCharsAllowed":100,"helpImageUrl":"na","settings":"AR","condition":"NA"},
+{"qId":2,"dataType":"Signature","label":"Signature","helpText":"Tap to put signature","MaxCharsAllowed":100,"helpImageUrl":"na","settings":"AR","condition":"NA"},
+{"qId":3,"dataType":"Signature","label":"Signature","helpText":"Tap to put signature","MaxCharsAllowed":100,"helpImageUrl":"na","settings":"AR","condition":"NA"}
+]}

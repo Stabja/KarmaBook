@@ -1,0 +1,377 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.stabstudio.userlayout.ProfileFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1">
+
+            <RelativeLayout
+                android:id="@+id/coverr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/cover"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:background="@drawable/cover"/>
+
+                <ImageView
+                    android:id="@+id/profileimg"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/lady"
+                    android:background="@drawable/image_border"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="89dp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:padding="18dp"
+            android:clickable="true"
+            android:background="?android:attr/selectableItemBackground" >
+
+            <TextView
+                android:id="@+id/user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="@string/username1"
+                android:textColor="#F27227"
+                android:layout_gravity="center_vertical"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="shikhaagarwal"
+                android:layout_weight=".3"
+                android:textColor="#000"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="#A2ACAD"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:padding="18dp"
+            android:clickable="true"
+            android:background="?android:attr/selectableItemBackground">
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="@string/email"
+                android:textColor="#F27227"
+                android:layout_gravity="center_vertical"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/emaila"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="shikhaagarwal@gmail.com"
+                android:layout_weight=".1"
+                android:textColor="#000"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="#A2ACAD"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:padding="18dp"
+            android:clickable="true"
+            android:background="?android:attr/selectableItemBackground">
+
+            <TextView
+                android:id="@+id/pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="@string/pass"
+                android:textColor="#F27227"
+                android:layout_gravity="center_vertical"
+                android:textSize="18dp"/>
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="************"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:background="#00000000"
+                android:textAlignment="center"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:maxLength="15"
+                android:inputType="textPassword"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="#A2ACAD"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:padding="18dp"
+            android:clickable="true"
+            android:background="?android:attr/selectableItemBackground">
+
+            <TextView
+                android:id="@+id/response"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/respstat"
+                android:textColor="#F27227"
+                android:layout_gravity="center_vertical"
+                android:textSize="18dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="350dp"
+            android:layout_height="0.8dp"
+            android:background="#A2ACAD"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:padding="18dp"
+            android:clickable="true"
+            android:background="?android:attr/selectableItemBackground">
+
+            <TextView
+                android:id="@+id/timep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/timeper"
+                android:textColor="#F27227"
+                android:layout_gravity="center_vertical"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="-- Feb 16' --"
+                android:layout_gravity="center|center_vertical"
+                android:gravity="center"
+                android:background="@drawable/round_edit_text"/>
+
+            <View
+                android:layout_width="15dp"
+                android:layout_height="0.8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="-- Jun 16' --"
+                android:layout_gravity="center|center_vertical"
+                android:gravity="center"
+                android:background="@drawable/round_edit_text"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="350dp"
+            android:layout_height="0.8dp"
+            android:background="#A2ACAD"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <com.github.mikephil.charting.charts.HorizontalBarChart
+                android:id="@+id/charth"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:clickable="true"
+            android:background="?android:attr/selectableItemBackground">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Form A"
+                android:textColor="#F27227"
+                android:layout_gravity="center_vertical"
+                android:textSize="18dp"/>
+
+            <CheckBox
+                android:id="@+id/gcheckbox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"
+                android:layout_gravity="center_vertical"
+                android:button="@drawable/check1"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="350dp"
+            android:layout_height="0.8dp"
+            android:background="#A2ACAD"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:clickable="true"
+            android:background="?android:attr/selectableItemBackground">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Form B"
+                android:textColor="#F27227"
+                android:layout_gravity="center_vertical"
+                android:textSize="18dp"/>
+
+            <CheckBox
+                android:id="@+id/gcheckbox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"
+                android:layout_gravity="center_vertical"
+
+                android:button="@drawable/check2"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="350dp"
+            android:layout_height="0.8dp"
+            android:background="#A2ACAD"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:clickable="true"
+            android:background="?android:attr/selectableItemBackground">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Form C"
+                android:textColor="#F27227"
+                android:layout_gravity="center_vertical"
+                android:textSize="18dp"/>
+
+            <CheckBox
+                android:id="@+id/gcheckbox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"
+                android:layout_gravity="center_vertical"
+                android:button="@drawable/check3"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="350dp"
+            android:layout_height="0.8dp"
+            android:background="#A2ACAD"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:clickable="true"
+            android:background="?android:attr/selectableItemBackground">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Form D"
+                android:textColor="#F27227"
+                android:layout_gravity="center_vertical"
+                android:textSize="18dp"/>
+
+            <CheckBox
+                android:id="@+id/gcheckbox4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"
+                android:layout_gravity="center_vertical"
+                android:button="@drawable/check4"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="350dp"
+            android:layout_height="0.8dp"
+            android:background="#A2ACAD"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

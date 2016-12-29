@@ -1,0 +1,11 @@
+{"WithCondition":[
+{"qId":1, "dataType":"Text","label":"Name","helpText":"Official Name","MaxCharsAllowed":100,"helpImageUrl":"na","settings":"AR","condition":"NA"}, 
+{"qId":2,"dataType":"Number","label":"Age","helpText":"How old are you?","MaxCharsAllowed":2,"helpImageUrl":"na","settings":"PoT","condition":"NA"},
+{"qId":3,"dataType":"Text","label":"Address","helpText":"Official Address","MaxCharsAllowed":100,"helpImageUrl":"na","settings":"AR",
+	"condition": {
+		"qId":2,
+		"conditionId":1,
+		"conditionalValue":20
+	}
+}
+]}

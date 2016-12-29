@@ -1,0 +1,12 @@
+{"TextandBox":[
+{"qId":1,"dataType":"Text","label":"Name","helpText":"Official Name","MaxCharsAllowed":100,"helpImageUrl":"na","settings":"AR","condition":"NA"},
+{"qId":2,"dataType":"Number","label":"Age","helpText":"How old are you?","MaxCharsAllowed":2,"helpImageUrl":"na","settings":"PoT","condition":"NA"},
+{"qId":3,"dataType":"Date","label":"Address","helpText":"Official Address","MaxCharsAllowed":100,"helpImageUrl":"na","settings":"AR","condition":"NA"},
+{"qId":4,"dataType":"Multiple Select","label":"Places","helpText":"Places u have visited?","MaxCharsAllowed":20,"helpImageUrl":"na","settings":"AR","condition":"NA", "enum":"delhi,mumbai,pune,hyderabad"},
+{"qId":5,"dataType":"Single Select","label":"Gender","helpText":"What are u?","MaxCharsAllowed":100,"helpImageUrl":"na","settings":"AR","condition":"NA", "enum":"male,female"},
+{"qId":6,"dataType":"Text","label":"Name","helpText":"Official Name","MaxCharsAllowed":100,"helpImageUrl":"na","settings":"AR","condition":"NA"},
+{"qId":7,"dataType":"Number","label":"Age","helpText":"How old are you?","MaxCharsAllowed":2,"helpImageUrl":"na","settings":"PoT","condition":"NA"},
+{"qId":8,"dataType":"Date","label":"Address","helpText":"Official Address","MaxCharsAllowed":100,"helpImageUrl":"na","settings":"AR","condition":"NA"},
+{"qId":9,"dataType":"Multiple Select","label":"Places","helpText":"Places u have visited?","MaxCharsAllowed":20,"helpImageUrl":"na","settings":"AR","condition":"NA", "enum":"delhi,mumbai,pune,hyderabad"},
+{"qId":10,"dataType":"Single Select","label":"Gender","helpText":"What are u?","MaxCharsAllowed":100,"helpImageUrl":"na","settings":"AR","condition":"NA", "enum":"male,female"}
+]}

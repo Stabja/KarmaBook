@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.stabstudio.userlayout">
+
+    <uses-feature android:name="android.hardware.screen.portrait" />
+
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme.Base">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeScreenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SurveyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OnlineResponseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OfflineResponseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SignatureActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KPHomeScreenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SelectLanguageDialog"
+            android:label="@string/selectlang"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name=".UserListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SurveyReportActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GetCurrentLocation"
+            android:label="@string/getlocation"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name=".EnrollmentFormActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DynamicFormActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoadJsonActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".DynamicFormActivity2" />
+        <activity android:name=".GetLocationActivity2"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.Dialog"></activity>
+    </application>
+
+</manifest>
