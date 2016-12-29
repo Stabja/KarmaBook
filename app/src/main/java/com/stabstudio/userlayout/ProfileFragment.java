@@ -203,6 +203,8 @@ public class ProfileFragment extends Fragment {
         barChart.setData(data);
     }
 
+	//Some Commenting
+	
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data){
         super.onActivityResult(requestCode, resultCode, data);
