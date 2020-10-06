@@ -1,6 +1,6 @@
 # KarmaBook
 
-Karmabook is the Android App I worked on my first Intern. It is used for Data Collection online or offline by filling Survey forms. This was coded as part of a hackathon. It had to be made within 5 days.
+Karmabook is the Android App I worked on my first Intern. It is used for Data Collection online or offline by filling Survey forms. This was developed as part of a hackathon. It had to be coded within 5 days.
 
 ## Features
 
